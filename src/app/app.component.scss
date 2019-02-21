@@ -1,0 +1,147 @@
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 2%;
+  justify-items: center;
+  grid-gap: 8px;
+}
+
+.small {
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+  cursor: pointer;
+  box-shadow: 10px 5px 5px rgb(7, 99, 94);
+}
+
+.modal {
+  background-color: rgba(0,0,0,.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.big {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.input {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  transition: height 0.4s ease-in;
+}
+
+input {
+  border-radius: 10px;
+  margin-right: 16px;
+  height: 35px;
+  width: 300px;
+  border: none;
+  text-align: center;
+  box-shadow: 10px 5px 5px rgb(7, 99, 94);
+}
+
+.input-after-search {
+  height: 60px;
+  margin-bottom: 50px;
+}
+
+.search {
+  cursor: pointer;
+  font-size: 18px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 24px;
+  box-shadow: 10px 5px 5px rgb(7, 99, 94);
+
+}
+
+.close {
+  color: white;
+  background-color: rgb(180, 41, 41);
+  font-size: 18px;
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  // transform: translate(-25%,-25%);
+  border: none;
+  border-radius: 26px;
+  padding: 7px 14px;
+  cursor: pointer;
+}
+
+[disabled] {
+  background-color: rgb(245, 188, 81);
+}
+
+.nex-fre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.next, .pre {
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 24px;
+  box-shadow: 10px 5px 5px rgb(7, 99, 94);
+  margin: 0 8px;
+}
+
+.next {
+  background-color: rgb(29, 129, 37);
+}
+
+.pre {
+  background-color: rgb(31, 64, 209);
+}
+
+.error {
+  margin-left: 16px;
+  color: rgb(175, 10, 10);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-res {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  width: 200px;
+  background-color: rgb(214, 54, 54);
+  border-radius: 10px;
+  padding: 10px 24px;
+}
+
+
+
+
+

@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  pixaBayApiKey: '11676443-30f726b126f5bdd85b391c96f'
 };
 
 /*

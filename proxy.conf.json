@@ -1,0 +1,10 @@
+{
+  "/api/*": {
+    "target": "https://pixabay.com/api",
+    "secure": false,
+    "pathRewrite": {
+      "^/api": "",
+      "changeOrigin": true
+    }
+  }
+}
