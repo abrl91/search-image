@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
   maxPage: number;
   chosenImage: any;
   showModal: boolean = false;
-  images: [];
+  images: any[];
 
   constructor(private http : HttpClient) {}
 
